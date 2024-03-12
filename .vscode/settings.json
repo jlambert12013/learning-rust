@@ -1,0 +1,8 @@
+{
+  "rust-analyzer.check.features": "all",
+  "rust-analyzer.check.command": "clippy",
+  "git.decorations.enabled": true,
+  "git.enabled": false,
+  "prettier.enable": false,
+  "rust-analyzer.linkedProjects": ["./Cargo.toml"]
+}
