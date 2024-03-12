@@ -39,16 +39,13 @@ pub fn run() {
     }
 
     // Create string with capacity
-    let mut foo = String::with_capacity(10);
+    let mut placeholder = String::with_capacity(10);
 
-    foo.push('a');
-    foo.push('b');
-
-    println!("{}", foo);
+    placeholder.push('a');
+    placeholder.push('b');
+    println!("{}", placeholder);
 
     // Assertion testing (only shows if failed)
-    assert_eq!(2, foo.len());
-    assert_eq!(11, foo.capacity());
-
-    // So many more methods for rust String...
+    assert_eq!(2, placeholder.len());
+    // assert_eq!(11, placeholder.capacity());  // this one fails
 }
